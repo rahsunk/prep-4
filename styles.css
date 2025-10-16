@@ -1,83 +1,92 @@
 h1 {
-    color: rgb(0, 0, 0);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main-container {
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-    width: 650px;
-    height: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  width: 650px;
+  height: 200px;
 }
 
-/* 
+/*
 TODO 3: Add an img selector to make all images a consistent 200x200 pixel size.
 The images should also have aesthetic rounded corners.
 */
 
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+}
 
 .posts {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 p {
-    margin: 0px;
+  margin: 0px;
 }
 
 .pretty-button {
-    background-color: #000000; /* Primary color */
-    color: white; /* Text color */
-    font-size: large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px 20px; /* Top/bottom and left/right padding */
-    border: none; /* No border */
-    border-radius: 5px; /* Slightly rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s; /* Smooth transition for background color */
-    margin-top: 20px;
-    margin-bottom: 10px;
+  background-color: #000000; /* Primary color */
+  color: white; /* Text color */
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px 20px; /* Top/bottom and left/right padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Slightly rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
-/* 
-TODO 4: Change the color of Post button on hover as a visual cue to the user 
+/*
+TODO 4: Change the color of Post button on hover as a visual cue to the user
 Ensure that the text is still readable after the color has been changed.
 */
 
+.pretty-button:hover {
+  background-color: gray;
+}
+
 .navbar {
-    display: flex;
-    justify-content: space-between; /* Space between brand and links */
-    align-items: center; /* Center items vertically */
-    background-color: #000000; /* Navbar background color */
-    padding: 10px 20px; /* Padding for the navbar */
+  display: flex;
+  justify-content: space-between; /* Space between brand and links */
+  align-items: center; /* Center items vertically */
+  background-color: #000000; /* Navbar background color */
+  padding: 10px 20px; /* Padding for the navbar */
 }
 
 .navbar-brand {
-    color: white; /* Brand text color */
-    font-size: 24px; /* Brand text size */
+  color: white; /* Brand text color */
+  font-size: 24px; /* Brand text size */
 }
 
 .navbar-links {
-    list-style: none; /* Remove bullet points from list */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-    display: flex; /* Display links in a row */
+  list-style: none; /* Remove bullet points from list */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Display links in a row */
 }
 
 .navbar-links li {
-    margin-left: 20px; /* Space between links */
+  margin-left: 20px; /* Space between links */
 }
 
 .navbar-links a {
-    color: white; /* Link color */
-    text-decoration: none; /* Remove underline */
-    transition: color 0.3s; /* Smooth transition for hover effect */
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }

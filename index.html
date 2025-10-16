@@ -1,59 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prep 5</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="navbar-brand">AppName</div>
-        <ul class="navbar-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+      <div class="navbar-brand">AppName</div>
+      <ul class="navbar-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-    <div class="main-container" style="display:flex; justify-items: center;">
-        <!-- 
+    <div class="main-container" style="display: flex; justify-items: center">
+      <!--
         TODO 1: Change the flex direction of the container below
         so that the post elements are under the title "Posts"
-        and the Post button is under the post elements. 
+        and the Post button is under the post elements.
         It should be a vertical feed of posts.
         -->
-        <div style="display:flex; flex-direction: row;">
-            <h1>Posts</h1>
-            <div class="posts">
-                <div>
-                    <img src="assets/images/apple.png">
-                    <p>This is an apple!</p>
-                </div>
-                <div>
-                    <img src="assets/images/apple.png">
-                    <p>This is an apple!</p>
-                </div>
-                <div>
-                    <img src="assets/images/apple.png">
-                    <p>This is an apple!</p>
-                </div>
-                <div>
-                    <img src="assets/images/apple.png">
-                    <p>This is an apple!</p>
-                </div>
-                <div>
-                    <img src="assets/images/apple.png">
-                    <p>This is an apple!</p>
-                </div>
-                <!-- 
-                TODO 2: Add 3 posts with your own images below.  
+      <div style="display: flex; flex-direction: column">
+        <h1>Posts</h1>
+        <div class="posts">
+          <div>
+            <img src="assets/images/apple.png" />
+            <p>This is an apple!</p>
+          </div>
+          <div>
+            <img src="assets/images/apple.png" />
+            <p>This is an apple!</p>
+          </div>
+          <div>
+            <img src="assets/images/apple.png" />
+            <p>This is an apple!</p>
+          </div>
+          <div>
+            <img src="assets/images/apple.png" />
+            <p>This is an apple!</p>
+          </div>
+          <div>
+            <img src="assets/images/apple.png" />
+            <p>This is an apple!</p>
+          </div>
+          <!--
+                TODO 2: Add 3 posts with your own images below.
                 Be sure to add a relevant comment for each of your new posts.
                 -->
-                
-            </div>
-            <button class="pretty-button">Post</button>
+          <div>
+            <img src="assets/images/flower.png" />
+            <p>This is a flower!</p>
+          </div>
+          <div>
+            <img src="assets/images/flower2.png" />
+            <p>This is another flower!</p>
+          </div>
+          <div>
+            <img src="assets/images/flower.png" />
+            <p>This is a flower (same as first one)!</p>
+          </div>
         </div>
+        <button class="pretty-button">Post</button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
